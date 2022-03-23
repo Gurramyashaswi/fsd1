@@ -1,12 +1,257 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>                                              <!-- Group 10 -->
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+    <link rel="stylesheet" href="projectfile.css">
+    <title>AVID ARTS</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="javascr.js"></script>
+    <style>
+      .search-container{
+           margin-top: 10px;
+      }
 
+      .button {
+        display: inline-block;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #7aa8b7;
+        border-radius: 6px;
+        outline: none;
+      }
+
+  .menu-btn {
+   background-color: 
+    rgb(87, 83, 83);
+   color: white;
+   padding: 0px;
+   padding-top: 5px;
+   font-size: 20px;
+   font-weight: none;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+    border-top-width: 0px;
+    border-left-width: 00px;
+    border-bottom-width: 00px;
+    border-right-width: 0px;
+
+
+}
+.dropdown-menu {
+   position: relative;
+   display: inline-block;
+  min-width: 10px;
+  padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+.menu-content {
+
+    text-align: center;
+    display: none;
+    position: inherit;
+    background-color: #9d9d9d;
+    color: #000;
+    list-style: none;
+    width: auto;
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.2);
+    z-index: 998;
+}
+
+
+nav{
+   background-color: #017575;
+}
+.links,.links-hidden{
+   display: inline-block;
+   color: rgb(255, 255, 255);
+   padding: 6px 6px;
+   text-decoration: none;
+   font-size: 18px;
+   font-weight: bold;
+}
+.links-hidden{
+   display: block;
+}
+.links{
+   display: inline-block;
+}
+.links-hidden:hover,.links:hover {
+   background-color: rgb(84, 85, 85);
+}
+.dropdown-menu:hover .menu-content {
+   display: block;
+}
+.dropdown-menu:hover .menu-btn {
+   background-color: #3e8e41;
+}
+
+    </style>
+</head>
+
+<body>
+  <br>
+  <br>
+  <br>
+  <br>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+      </div>
+
+<ul class="nav navbar-nav">
+  <li><a class="active" href="#home">Home</a></li>
+  <li><div class="dropdown-menu">
+    <button class="menu-btn">Artist</button>
+    <div class="menu-content">
+    <a class="links-hidden" href="#">Contact Us</a>
+    <a class="links-hidden" href="#">Visit Us</a>
+    <a class="links-hidden" href="#">About Us</a>
+    </div></li>
+  <li><a href="artworks.html">Art works</a></li>
+  <li><a href="faq.html">FAQs</a></li>
+  <li><a href="help.html">Help</a></li>
+  <li><a href="profile.html">Profile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </a></li>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <li>
+    <div class="search-container">
+      <form >
+        <input type="text" placeholder="Search" name="search">
+        <button type="submit" onclick= "alert('SEARCH QUERY INITIATED!')"i class="fa fa-search"></i></button>
+      </form>
+    </div>
+  </li>
+  <li>
+    <div class="class1" >
+      <a href="login.html">
+          <button type="button" class="sizecheck">Login</button> 
+          </a>   
+      </div>
+  </li>
+
+  <li class="cart">
+    <a href="help.html">
+      <ion-icon name="basket"></ion-icon>CART<span> 0 </span>
+    </a>
+  </li>
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+</ul>
+</div>
+
+
+<br>
+</nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel"> 
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="img2.png" alt="Chania" class="center" style="height: 75vh">
+      <div class="carousel-caption">
+        <h3></h3>
+        <p></p>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="img1.jpg" alt="Chicago" class="center" style="height:75vh">
+      <div class="carousel-caption">
+        <h3></h3>
+        <p></p>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="img3.jpg" alt="New York" class="center" style="height: 75vh">
+      <div class="carousel-caption">
+        <h3></h3>
+        <p></p>
+      </div>
+    </div>
+  </div>
+   
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+
+<p style="font-size:3vw">Artist Profiles</p>
+
+<div style="text-align:right">
+<a href="artist.html">
+        view all</a>
+</div>
+<br>
+<a href="artworks.html">
+    <img src="C:\Users\kisho\OneDrive\Desktop\SREELEKHA\FFSD\project\fsd_files1\artist1.jpeg" height=400 width=400  alt=""></a>
+    &nbsp;&nbsp;&nbsp;
+
+<img src="C:\Users\kisho\OneDrive\Desktop\SREELEKHA\FFSD\project\fsd_files1\artist2.jpeg" height=400 width=400  alt="">
+&nbsp;&nbsp;&nbsp;
+<img src="C:\Users\kisho\OneDrive\Desktop\SREELEKHA\FFSD\project\fsd_files1\artist3.jpeg" height=400 width=400  alt="">
+
+<br>
+<br>
+<p style="font-size:3vw">Art works</p>
+
+<div style="text-align:right">
+<a href="artworks.html">
+view all</a>
+</div>
+<br>
+<img src="C:\Users\kisho\OneDrive\Desktop\SREELEKHA\FFSD\project\fsd_files1\paint1.jfif" height=200 width=200 alt=""> &nbsp;&nbsp;&nbsp;
+<img src="C:\Users\kisho\OneDrive\Desktop\SREELEKHA\FFSD\project\fsd_files1\paint2.jfif" height=200 width=200 alt=""> &nbsp;&nbsp;&nbsp;
+<img src="C:\Users\kisho\OneDrive\Desktop\SREELEKHA\FFSD\project\fsd_files1\paint3.jfif" height=200 width=200 alt=""> &nbsp;&nbsp;&nbsp;
+<img src="C:\Users\kisho\OneDrive\Desktop\SREELEKHA\FFSD\project\fsd_files1\paint4.jfif" height=200 width=200 alt=""> &nbsp;&nbsp;&nbsp;
+<img src="C:\Users\kisho\OneDrive\Desktop\SREELEKHA\FFSD\project\fsd_files1\paint5.jfif" height=200 width=200 alt=""> &nbsp;&nbsp;&nbsp;
+<img src="C:\Users\kisho\OneDrive\Desktop\SREELEKHA\FFSD\project\fsd_files1\paint6.jfif" height=200 width=200 alt=""> &nbsp;&nbsp;&nbsp;
+<br>
+
+</script>
+<br><br>
+<br>
+<footer>
+<div class="myDiv">
+  <a href="help.html">Help</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="contact.html">Contact Us</a>
+  <br><br>
+
+  <h1 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Avid Arts</h1>
+
+
+
+<a href="mailto:alapatisreelekha@gmail.com">alapatisreelekha@gmail.com</a>
+<br>
+<a href="mailto:alapatisreelekha9@gmail.com">alapatisreelekha9@gmail.com</a>
+
+  <br>
+  Enquires: 9999666677
+      
+</div>
+</div>
+</footer>
 </body>
 </html>
