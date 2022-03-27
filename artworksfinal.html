@@ -10,6 +10,120 @@
         <script src="shopcart.js" async></script>
       
 <style>
+    .fa-facebook {
+  color: white;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+#footer {
+    position: relative;
+	overflow: hidden;
+}
+
+.wrap {
+	background: #3E3E3E;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+
+ #footer a,
+ #footer h3 {
+    font: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 26px;
+ }
+
+.clear {
+    clear: both;
+}
+
+.left {
+    text-align: left;
+    float: left;
+    width: 33%;
+    padding: 20px;
+}
+
+.right {
+    float: right;
+    text-align: left;
+    padding-right: 150px;
+    font: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer-basic {
+  padding:20px 0;
+  background-color:#8f8787;
+  color:#4b4c4d;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:15px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:5px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+
+
+.social{
+  padding-top: 0px;
+}
+
         .search-container{
             margin-top: 10px;
        }
@@ -138,16 +252,17 @@
       
 
         <li class="cart">
-          <a href="help.html">
+          <a href="artworksfinal.html">
             <ion-icon name="basket"></ion-icon>CART<span> 0 </span>
           </a>
         </li>
       <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
       </ul>
       </div>
-      <br>
+      
       </nav>
         <section class="container content-section">
+            <p class="class1" id = "id1"> 
             <h2 class="section-header">Paintings</h2>
             <div class="shop-items">
                 <div class="shop-item">
@@ -187,14 +302,16 @@
                     </div>
                 </div>
             </div>
+            </p>
         </section>
           
 
         <section class="container content-section">
-            <h2 class="section-header">Crafts</h2>
+            <p class="class2" id = "id2"> 
+            <h2 class="section-header">Sketching</h2>
             <div class="shop-items">
                 <div class="shop-item">
-                    <span class="shop-item-title">craft1</span>
+                    <span class="shop-item-title">Sketching1</span>
                     <img class="shop-item-image" src="img2.png">
                     <br>
                     <div class="shop-item-details">
@@ -203,7 +320,7 @@
                     </div>
                 </div>
                 <div class="shop-item">
-                    <span class="shop-item-title">craft2</span>
+                    <span class="shop-item-title">Sketching2</span>
                     <img class="shop-item-image" src="img1.jpg">
                     <br>
                     <div class="shop-item-details">
@@ -212,7 +329,7 @@
                     </div>
                 </div>
                 <div class="shop-item">
-                    <span class="shop-item-title">craft3</span>
+                    <span class="shop-item-title">Sketching3</span>
                     <img class="shop-item-image" src="img3.jpg">
                     <br>
                     <div class="shop-item-details">
@@ -221,7 +338,7 @@
                     </div>
                 </div>
                 <div class="shop-item">
-                    <span class="shop-item-title">craft4</span>
+                    <span class="shop-item-title">Sketching4</span>
                     <img class="shop-item-image" src="img1.jpg">
                     <br>
                     <div class="shop-item-details">
@@ -239,16 +356,18 @@
                     </div>
                 </div>
             </div>
+            </p>
         </section>
     
 
 
 
         <section class="container content-section">
-            <h2 class="section-header">Sculptures</h2>
+            <p class="class3" id = "id3"> 
+            <h2 class="section-header">ScoopArts</h2>
             <div class="shop-items">
                 <div class="shop-item">
-                    <span class="shop-item-title">Sculpture1</span>
+                    <span class="shop-item-title">ScoopArts1</span>
                     <img class="shop-item-image" src="img2.png">
                     <br>
                     <div class="shop-item-details">
@@ -257,7 +376,7 @@
                     </div>
                 </div>
                 <div class="shop-item">
-                    <span class="shop-item-title">Sculpture2</span>
+                    <span class="shop-item-title">ScoopArts2</span>
                     <img class="shop-item-image" src="img1.jpg">
                     <br>
                     <div class="shop-item-details">
@@ -266,7 +385,7 @@
                     </div>
                 </div>
                 <div class="shop-item">
-                    <span class="shop-item-title">Sculpture3</span>
+                    <span class="shop-item-title">ScoopArts3</span>
                     <img class="shop-item-image" src="img3.jpg">
                     <br>
                     <div class="shop-item-details">
@@ -275,7 +394,7 @@
                     </div>
                 </div>
                 <div class="shop-item">
-                    <span class="shop-item-title">Sculpture4</span>
+                    <span class="shop-item-title">ScoopArts4</span>
                     <img class="shop-item-image" src="img1.jpg">
                     <br>
                     <div class="shop-item-details">
@@ -284,6 +403,7 @@
                     </div>
                 </div>
             </div>
+            </p>
         </section>
 
 
@@ -291,7 +411,7 @@
             <h2 class="section-header">Others</h2>
             <div class="shop-items">
                 <div class="shop-item">
-                    <span class="shop-item-title"></span>
+                    <span class="shop-item-title">Others1</span>
                     <img class="shop-item-image" src="img2.png">
                     <br>
                     <div class="shop-item-details">
@@ -300,7 +420,7 @@
                     </div>
                 </div>
                 <div class="shop-item">
-                    <span class="shop-item-title"></span>
+                    <span class="shop-item-title">Others2</span>
                     <img class="shop-item-image" src="img1.jpg">
                     <br>
                     <div class="shop-item-details">
@@ -309,7 +429,7 @@
                     </div>
                 </div>
                 <div class="shop-item">
-                    <span class="shop-item-title"></span>
+                    <span class="shop-item-title">Others3</span>
                     <img class="shop-item-image" src="img3.jpg">
                     <br>
                     <div class="shop-item-details">
@@ -318,7 +438,7 @@
                     </div>
                 </div>
                 <div class="shop-item">
-                    <span class="shop-item-title"></span>
+                    <span class="shop-item-title">Others4</span>
                     <img class="shop-item-image" src="img1.jpg">
                     <br>
                     <div class="shop-item-details">
@@ -345,29 +465,23 @@
                     <strong class="cart-total-title">Total</strong>
                     <span class="cart-total-price">$0</span>
                 </div>
+                <a href="purchase.html">
                 <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+                </a>
             </section>       
-        <footer class="main-footer">
-            <div class="container main-footer-container">
-                <h3 class="band-name">The Generics</h3>
-                <ul class="nav footer-nav">
-                    <li>
-                        <a href="https://www.youtube.com" target="_blank">
-                            <img src="Images/YouTube Logo.png">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.spotify.com" target="_blank">
-                            <img src="Images/Spotify Logo.png">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com" target="_blank">
-                            <img src="Images/Facebook Logo.png">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </footer>
+      
+
+        <div class="footer-basic">
+            <footer>
+                <div class="social">    
+                  <a href="#" class="fa fa-facebook style">acebook </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a href="#" class="fa fa-twitter">Twitter</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a href="#" class="fa fa-google">oogle</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        
+                </div>
+              
+          
+          <p class="copyright">Company Name © 2021</p>
+            </footer>
+          </div>
     </body>
 </html>
