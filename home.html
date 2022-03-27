@@ -1,31 +1,150 @@
 <!DOCTYPE html>                                              <!-- Group 10 -->
 <html>
 <head>
+    <meta charset="utf-8">
     <link rel="stylesheet" href="projectfile.css">
     <title>AVID ARTS</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="javascr.js"></script>
-    <style>
-      .search-container{
-           margin-top: 10px;
-      }
+<style>
 
-      .button {
-        display: inline-block;
-        padding: 10px 20px;
-        text-align: center;
-        text-decoration: none;
-        color: #ffffff;
-        background-color: #7aa8b7;
-        border-radius: 6px;
-        outline: none;
-      }
+.fa-facebook {
+  color: white;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+#footer {
+    position: relative;
+	overflow: hidden;
+}
+
+.wrap {
+	background: #3E3E3E;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+
+ #footer a,
+ #footer h3 {
+    font: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 26px;
+ }
+
+.clear {
+    clear: both;
+}
+
+.left {
+    text-align: left;
+    float: left;
+    width: 33%;
+    padding: 20px;
+}
+
+.right {
+    float: right;
+    text-align: left;
+    padding-right: 150px;
+    font: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer-basic {
+  padding:20px 0;
+  background-color:#8f8787;
+  color:#4b4c4d;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:15px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:5px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+
+
+.social{
+  padding-top: 0px;
+}
+
+.search-container{
+    margin-top: 10px;
+}
+ul{
+  background-color: #000;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #7aa8b7;
+    border-radius: 6px;
+    outline: none;
+}
 
   .menu-btn {
-   background-color: 
-    rgb(87, 83, 83);
+  
+    background-color: #000;
    color: white;
    padding: 0px;
    padding-top: 5px;
@@ -63,9 +182,7 @@
 }
 
 
-nav{
-   background-color: #017575;
-}
+
 .links,.links-hidden{
    display: inline-block;
    color: rgb(255, 255, 255);
@@ -74,6 +191,7 @@ nav{
    font-size: 18px;
    font-weight: bold;
 }
+
 .links-hidden{
    display: block;
 }
@@ -81,7 +199,7 @@ nav{
    display: inline-block;
 }
 .links-hidden:hover,.links:hover {
-   background-color: rgb(84, 85, 85);
+  background-color: #9d9d9d;
 }
 .dropdown-menu:hover .menu-content {
    display: block;
@@ -90,7 +208,8 @@ nav{
    background-color: #3e8e41;
 }
 
-    </style>
+
+</style>
 </head>
 
 <body>
@@ -98,26 +217,22 @@ nav{
   <br>
   <br>
   <br>
-  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <nav class="navbar navbar-inverse navbar-fixed-top">  
     <div class="container-fluid">
       <div class="navbar-header">
       </div>
-
 <ul class="nav navbar-nav">
   <li><a class="active" href="#home">Home</a></li>
-  <li><div class="dropdown-menu">
-    <button class="menu-btn">Artist</button>
-    <div class="menu-content">
-    <a class="links-hidden" href="#">Contact Us</a>
-    <a class="links-hidden" href="#">Visit Us</a>
-    <a class="links-hidden" href="#">About Us</a>
-    </div></li>
-  <li><a href="artworks.html">Art works</a></li>
+   <li><a href="artistfinal.html">Artist</a></li>
+  <li><a href="artworksfinal.html">Art works</a></li>
   <li><a href="faq.html">FAQs</a></li>
   <li><a href="help.html">Help</a></li>
-  <li><a href="profile.html">Profile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <li><a href="profile.html">Profile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   </a></li>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</ul>
+
+  <ul class="nav navbar-nav navbar-right">
   <li>
     <div class="search-container">
       <form >
@@ -129,10 +244,15 @@ nav{
   <li>
     <div class="class1" >
       <a href="login.html">
-          <button type="button" class="sizecheck">Login</button> 
+          <button type="button" class="sizecheck" style="color: #000;">Login</button> 
           </a>   
       </div>
   </li>
+  <li>
+    <div><a href="signup.html">
+      <button type="button" class="sizecheck" style="color: #000;">Sign Up</button> 
+    </a></div>
+</li>
 
   <li class="cart">
     <a href="help.html">
@@ -140,11 +260,8 @@ nav{
     </a>
   </li>
 <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-
 </ul>
 </div>
-
-
 <br>
 </nav>
 
@@ -155,7 +272,6 @@ nav{
     <li data-target="#myCarousel" data-slide-to="1"></li>
     <li data-target="#myCarousel" data-slide-to="2"></li>
   </ol>
-
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
@@ -196,62 +312,39 @@ nav{
 </div>
 
 
-
-<p style="font-size:3vw">Artist Profiles</p>
-
-<div style="text-align:right">
-<a href="artist.html">
-        view all</a>
+<div class="container">
+  <div class="box">
+    <img src="./images/img1.jpg">
+    <span>Paintings</span>
+  </div>
+  <div class="box">
+    <img src="./images/img2.jpg">
+    <span>Crafts</span>
+  </div>
+  <div class="box">
+    <img src="./images/img3.jpg">
+    <span>Sculpture</span>
+  </div>
+  <div class="box">
+    <img src="./images/img4.jpg">
+    <span>Others</span>
+  </div>
 </div>
-<br>
-<a href="artworks.html">
-    <img src="C:\Users\kisho\OneDrive\Desktop\SREELEKHA\FFSD\project\fsd_files1\artist1.jpeg" height=400 width=400  alt=""></a>
-    &nbsp;&nbsp;&nbsp;
 
-<img src="C:\Users\kisho\OneDrive\Desktop\SREELEKHA\FFSD\project\fsd_files1\artist2.jpeg" height=400 width=400  alt="">
-&nbsp;&nbsp;&nbsp;
-<img src="C:\Users\kisho\OneDrive\Desktop\SREELEKHA\FFSD\project\fsd_files1\artist3.jpeg" height=400 width=400  alt="">
+<div class="footer-basic">
+  <footer>
+      <div class="social">    
+        <a href="#" class="fa fa-facebook style">acebook </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#" class="fa fa-twitter">Twitter</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#" class="fa fa-google">oogle</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        
+      </div>
+    
 
-<br>
-<br>
-<p style="font-size:3vw">Art works</p>
-
-<div style="text-align:right">
-<a href="artworks.html">
-view all</a>
+<p class="copyright">Company Name © 2021</p>
+  </footer>
 </div>
-<br>
-<img src="C:\Users\kisho\OneDrive\Desktop\SREELEKHA\FFSD\project\fsd_files1\paint1.jfif" height=200 width=200 alt=""> &nbsp;&nbsp;&nbsp;
-<img src="C:\Users\kisho\OneDrive\Desktop\SREELEKHA\FFSD\project\fsd_files1\paint2.jfif" height=200 width=200 alt=""> &nbsp;&nbsp;&nbsp;
-<img src="C:\Users\kisho\OneDrive\Desktop\SREELEKHA\FFSD\project\fsd_files1\paint3.jfif" height=200 width=200 alt=""> &nbsp;&nbsp;&nbsp;
-<img src="C:\Users\kisho\OneDrive\Desktop\SREELEKHA\FFSD\project\fsd_files1\paint4.jfif" height=200 width=200 alt=""> &nbsp;&nbsp;&nbsp;
-<img src="C:\Users\kisho\OneDrive\Desktop\SREELEKHA\FFSD\project\fsd_files1\paint5.jfif" height=200 width=200 alt=""> &nbsp;&nbsp;&nbsp;
-<img src="C:\Users\kisho\OneDrive\Desktop\SREELEKHA\FFSD\project\fsd_files1\paint6.jfif" height=200 width=200 alt=""> &nbsp;&nbsp;&nbsp;
-<br>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
 
-</script>
-<br><br>
-<br>
-<footer>
-<div class="myDiv">
-  <a href="help.html">Help</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="contact.html">Contact Us</a>
-  <br><br>
-
-  <h1 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Avid Arts</h1>
-
-
-
-<a href="mailto:alapatisreelekha@gmail.com">alapatisreelekha@gmail.com</a>
-<br>
-<a href="mailto:alapatisreelekha9@gmail.com">alapatisreelekha9@gmail.com</a>
-
-  <br>
-  Enquires: 9999666677
-      
-</div>
-</div>
-</footer>
 </body>
 </html>
